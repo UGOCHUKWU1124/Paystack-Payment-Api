@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json", //this allows the use of nodejs 16 features
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
+
+//the tsconfig.json file is used to configure the typescript compiler
+//the extends property is used to extend the typescript compiler configuration from another file
+//the compilerOptions property is used to configure the typescript compiler
+//the outDir property is used to specify the output directory for the compiled typescript code
+//the include property is used to specify the files to include in the compilation
+//the exclude property is used to specify the files to exclude from the compilation
